@@ -1,0 +1,25 @@
+@keyframes fade-up-01{
+  0%{transform:translateY(25px); opacity:0;}
+  100%{transform:translateY(0px); opacity:1;}
+}
+
+@keyframes fade-up-02{
+  0%{}
+  100%{}
+}
+
+@keyframes fade-up-03{
+  0%{}
+  100%{}
+}
+
+/* Mobile Menu Items Show Hide Animation */
+@keyframes show{
+  0%{transform:translateY(-40px); opacity:0; visibility:hidden;}
+  100%{transform:translateY(0); opacity:1; visibility:visible;}
+}
+
+@keyframes hide{
+  0%{transform:translateY(0); opacity:1; visibility:visible;}
+  100%{transform:translateY(-40px); opacity:0; visibility:hidden;}
+}
